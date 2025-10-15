@@ -1,0 +1,32 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+
+# Modelos (muy pesados)
+models/*.pkl
+
+# Resultados temporales
+results/*.png
+results/*.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
